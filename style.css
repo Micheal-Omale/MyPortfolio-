@@ -1,0 +1,220 @@
+body{
+background: #202020;
+padding: 0;
+margin:0;
+}
+
+.container{
+  max-width: 90%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1.5rem;
+}
+
+.border-line {
+  border: 1px solid  #d6d6d6;
+}
+
+.branding {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  background: #202020;
+  justify-content: center;
+  align-items: center;
+}
+
+.branding h2{
+  color:#ffd100;
+  font-size: 40px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight:  bolder;
+  text-align: cente;
+  margin: 0;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.img-item{
+  width: 30%;
+  height: 20%;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  border-radius: 100px;
+}
+
+.hero{
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+h2{
+  font-size: 35px;
+  font-weight: bolder;
+  color:#ffee32;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color:#ffee32;
+  text-transform: capitalize;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.hero h1 span {
+  color:  #d6d6d6;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+  color: #d6d6d6;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-top: 15px;
+  text-transform: capitalize;
+  font-family: monospace;
+}
+
+.btn {
+    padding-top:20px;
+}
+a{
+  color: #ffee32;
+  border: 1px solid #ffd100;
+  border-radius: 10px;
+  padding:13px;
+  text-decoration-line: none;
+}
+
+.skills{
+  box-sizing:border-box ;
+  padding: 2rem 0 ;
+ }   
+ 
+ .skills p{
+   text-transform: uppercase;
+ }
+ 
+.skill-item{
+  background:white;
+  width:100%;
+  height: -90px;
+  border-radius:15px;
+}
+
+.skill{
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  text-transform: uppercase;
+}
+
+.html {
+  width: 85%;
+  background: #ffee32;
+  border-radius: 10px;
+}
+
+.css{
+  width: 85%;
+  background: #ffee32;
+  border-radius: 10px;
+}
+
+.js{
+  width: 40%;
+  background: #ffee32;
+  border-radius: 10px;
+}
+
+
+.bs5{
+  width: 75%;
+  background: #ffee32;
+  border-radius: 10px;
+}
+
+.portfolio{
+  padding-left: 37% !important;
+  height:300px;
+}
+
+.portfolio p{
+  width: 20%;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center
+}
+
+input[type=text], input[type=email]{
+  border:solid;
+  height: 30px;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+}
+
+textarea{
+  border-radius: 10px;
+  margin: 1rem 2rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
+input[type="submit"] {
+  color: #ffee32;
+  border: 1px solid #ffd100;
+  border-radius: 10px;
+  padding:13px;
+  text-decoration-line: none;
+  background: inherit;
+}
+
+form .btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+  
+}
+
+form .btn a{
+  margin-right: .3rem;
+  margin-left:.3rem;
+  
+}
+
+footer{
+  background:#333533;
+  height:50px;
+}
+
+footer p{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer p a{
+  color:cyan;
+  text-decoration: underline 2px solid #ffd100;
+  border: none;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  letter-spacing: 1px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
